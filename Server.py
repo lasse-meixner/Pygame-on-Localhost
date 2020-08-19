@@ -4,7 +4,7 @@ import json
 import pickle
 from Game import Game
 
-server = "192.168.178.138"
+server = ""     # Include IP adress
 port = 5555
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
